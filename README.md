@@ -56,3 +56,7 @@ The interface loads vehicle photos from Wikimedia Commons. Check each original f
 ## Before deployment
 
 Run the build and type checks, review the image licenses and API-key handling, and test the interface on desktop and mobile. A successful build is not a security audit or a claim of production readiness.
+
+## Photo credits and project license
+
+See [CREDITS.md](CREDITS.md) for the nine original photo sources, authors and licenses. The interface also includes photo credits and an unofficial student-project notice. No affiliation with Mercedes-Benz or Mercedes-AMG is claimed. There is no project LICENSE file; this README does not grant an open-source license for the code. Third-party photos and dependencies retain their own licenses.
