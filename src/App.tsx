@@ -287,9 +287,24 @@ export default function App() {
             <a href="#" className="hover:text-white transition-colors">Press</a>
           </div>
           <div className="text-xs text-white/40 tracking-widest">
-            &copy; {new Date().getFullYear()} MERCEDES-AMG.
+            Unofficial student project. Not affiliated with Mercedes-AMG.
           </div>
         </div>
+          <details className="max-w-3xl text-xs text-white/60 leading-relaxed">
+            <summary className="cursor-pointer underline">Photo credits and licenses</summary>
+            <p className="mt-3">Images from Wikimedia Commons. Displayed with CSS resizing, cropping and overlays. Photo adaptations retain their listed licenses. No endorsement is implied.</p>
+            <ul className="mt-3 space-y-2">
+                <li><a href="https://commons.wikimedia.org/wiki/File:2022_Mercedes_AMG_One.jpg" target="_blank" rel="noreferrer" className="underline">Photo 1: Calreyn88</a>{' '}, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer" className="underline">CC BY-SA 4.0</a></li>
+                <li><a href="https://commons.wikimedia.org/wiki/File:IAA_2021%2C_Munich_%28IAA10151%29.jpg" target="_blank" rel="noreferrer" className="underline">Photo 2: Matti Blume</a>{' '}, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer" className="underline">CC BY-SA 4.0</a></li>
+                <li><a href="https://commons.wikimedia.org/wiki/File:Mercedes-AMG_ONE_%2853047550437%29.jpg" target="_blank" rel="noreferrer" className="underline">Photo 3: Andrew Basterfield</a>{' '}, <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noreferrer" className="underline">CC BY-SA 2.0</a></li>
+                <li><a href="https://commons.wikimedia.org/wiki/File:2025_Mercedes-AMG_One_HCC25.jpg" target="_blank" rel="noreferrer" className="underline">Photo 4: MrWalkr</a>{' '}, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer" className="underline">CC BY-SA 4.0</a></li>
+                <li><a href="https://commons.wikimedia.org/wiki/File:2023_Mercedes_AMG_One.jpg" target="_blank" rel="noreferrer" className="underline">Photo 5: Calreyn88</a>{' '}, <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noreferrer" className="underline">CC0 1.0</a></li>
+                <li><a href="https://commons.wikimedia.org/wiki/File:Mercedes-AMG_ONE_%2853048132806%29.jpg" target="_blank" rel="noreferrer" className="underline">Photo 6: Andrew Basterfield</a>{' '}, <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noreferrer" className="underline">CC BY-SA 2.0</a></li>
+                <li><a href="https://commons.wikimedia.org/wiki/File:Mercedes-AMG_One_IAA_2021_1X7A0108.jpg" target="_blank" rel="noreferrer" className="underline">Photo 7: Alexander Migl</a>{' '}, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer" className="underline">CC BY-SA 4.0</a></li>
+                <li><a href="https://commons.wikimedia.org/wiki/File:2023_Mercedes-AMG_One_FOS25.jpg" target="_blank" rel="noreferrer" className="underline">Photo 8: MrWalkr</a>{' '}, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer" className="underline">CC BY-SA 4.0</a></li>
+                <li><a href="https://commons.wikimedia.org/wiki/File:Mercedes-AMG_One_at_the_2022_Goodwood_Festival_of_Speed.jpg" target="_blank" rel="noreferrer" className="underline">Photo 9: Andrew Basterfield</a>{' '}, <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noreferrer" className="underline">CC BY-SA 2.0</a></li>
+            </ul>
+          </details>
       </footer>
     </div>
   );
